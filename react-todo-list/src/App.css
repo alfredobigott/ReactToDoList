@@ -1,0 +1,82 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main layout */
+body {
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+/* Main app container */
+div {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 400px;
+}
+
+/* Titles */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Task list */
+ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+li {
+  padding: 10px;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+/* Task text field (editing mode) */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Buttons styling */
+button {
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* Save / Edit button */
+button:first-of-type {
+  background: #4caf50;
+  color: white;
+}
+
+/* Delete button */
+button:last-of-type {
+  background: #e74c3c;
+  color: white;
+}
